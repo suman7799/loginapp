@@ -1,6 +1,8 @@
 ---
 - name: Installing Docker
   hosts: 192.168.1.234
+  remote_user: slave
+  become: true
   tasks:
         - name: Install pip
           yum:
