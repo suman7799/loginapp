@@ -76,13 +76,13 @@
 		<repository>
 			<id>nexus</id>
 			<name>My Nexus Repository</name>
-			<url>http://18.222.120.217:8081/repository/test-release/</url>
+			<url>http://192.168.56.40:8081/repository/test-release/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>My Nexus Repository</name>
-			<url>http://18.222.120.217:8081/repository/test-snapshot/</url>
+			<url>http://192.168.56.40:8081/repository/test-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
