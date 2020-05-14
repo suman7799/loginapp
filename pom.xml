@@ -76,13 +76,13 @@
 		<repository>
 			<id>nexus</id>
 			<name>My Nexus Repository</name>
-			<url>http://192.168.56.40:8081/repository/maven-repo/</url>
+			<url>http://192.168.56.14:8081/repository/hari-repo/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>My Nexus Repository</name>
-			<url>http://192.168.56.40:8081/repository/maven-repo/</url>
+			<url>http://192.168.56.14:8081/repository/harisnap-repo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
