@@ -82,7 +82,7 @@
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>My Nexus Repository</name>
-			<url>http://192.168.56.13:8081/repository/harisnap-repo/</url>
+			<url>http://192.168.56.13:8081/repository/hari-repo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
