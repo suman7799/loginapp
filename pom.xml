@@ -75,14 +75,16 @@
 	
 		<repository>
 			<id>nexus</id>
-			<name>nexus-repo</name>
-			<url>http://192.168.56.10:8081/repository/nexus-repo/</url>
+			<name>Artifact-repo
+</name>
+			<url>http://192.168.56.10:8081/repository/Artifact-repo/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>nexus-repo</name>
-			<url>http://192.168.56.10:8081/repository/nexus-repo/</url>
+			<name>Artifact-repo
+</name>
+			<url>http://192.168.56.10:8081/repository/Artifact-repo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
