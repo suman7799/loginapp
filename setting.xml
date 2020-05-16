@@ -126,7 +126,7 @@ under the License.
     <server>
       <id>nexus</id>
       <username>admin</username>
-      <password>redhat</password>
+      <password>admin</password>
     </server>
     <!-- Another sample, using keys to authenticate.
     <server>
@@ -257,7 +257,7 @@ under the License.
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                  http://192.168.56.50:9000
+                    192.168.56.11:9000
                 </sonar.host.url>
             </properties>
         </profile>
