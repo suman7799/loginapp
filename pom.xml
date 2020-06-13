@@ -75,16 +75,16 @@
 	
 		<repository>
 			<id>nexus</id>
-			<name>Ansible-repo
+			<name>nexusrepo
 </name>
-			<url>http://192.168.56.11:8081/repository/Ansible-repo/</url>
+			<url>http://192.168.56.11:8081/repository/nexusrepo/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>Ansible-repo
+			<name>nexusrepo
 </name>
-			<url>http://192.168.56.11:8081/repository/Ansible-repo/</url>
+			<url>http://192.168.56.11:8081/repository/nexusrepo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
