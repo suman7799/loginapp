@@ -75,16 +75,16 @@
 	
 		<repository>
 			<id>nexus</id>
-			<name>Job-repo
+			<name>Sourav
 </name>
-			<url>http://192.168.56.10:8081/repository/Job-repo/</url>
+			<url>http://192.168.56.11:8081/repository/Sourav/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>Job-repo
+			<name>Sourav
 </name>
-			<url>http://192.168.56.10:8081/repository/Job-repo/</url>
+			<url>http://192.168.56.11:8081/repository/Sourav/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
