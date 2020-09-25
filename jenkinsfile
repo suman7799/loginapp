@@ -23,7 +23,7 @@ pipeline {
    stages {
       stage('Git Checkout') {
          steps {
-            git 'https://github.com/Rashmi-devops/loginapp.git'   
+            git 'https://github.com/Chandandhani/loginapp.git'   
          }
       }
     stage('Static code Analisyss'){
@@ -45,12 +45,7 @@ pipeline {
         sh "mvn deploy"
        }
      }
-    stage ('Ansible Tower'){
-       steps {
-         ansiColor('xterm') {
-          ansibleTower async: false, credential: '', extraVars: '', importTowerLogs: true, importWorkflowChildLogs: false, inventory: '', jobTags: '', jobTemplate: 'tomcat-job', jobType: 'run', limit: '', removeColor: false, skipJobTags: '', templateType: 'job', throwExceptionWhenFail: false, towerCredentialsId: 'Tower-Creds', towerServer: 'Ansible Tower', verbose: false
-}  
-       }    
+     
     }
 	stage("Ansible"){
 		steps {
@@ -60,4 +55,4 @@ pipeline {
    }
 
    }
- }  
+   
