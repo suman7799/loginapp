@@ -25,7 +25,7 @@ pipeline {
             git 'https://github.com/Rashmi-devops/loginapp.git'   
          }
       }
-    stage('Static code Analisys'){
+    stage('Static code Analisyss'){
       steps {
            withSonarQubeEnv('sonar server') {
             /*sh "${scannerHome}/bin/sonar-scanner -Dsonar.sourceEncoding=UTF-8 -Dsonar.projectKey=testpipeline -Dsonar.projectName=testpipeline -Dsonar.projectVersion=1.0"*/
