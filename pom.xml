@@ -77,14 +77,14 @@
 			<id>nexus</id>
 			<name>CI_CD_Repo
 </name>
-			<url>http://54.90.253.31:8081/repository/CI_CD_Repo/</url>
+			<url>http://54.221.88.150:8081/repository/CI_CD_Repo/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>CI_CD_Repo
 </name>
-			<url>http://54.90.253.31:8081/repository/CI_CD_Repo/</url>
+			<url>http://54.221.88.150:8081/repository/CI_CD_Repo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
