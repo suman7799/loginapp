@@ -3,7 +3,7 @@ pipeline {
        label 'slave'
    }
    tools {
-     maven "maven"  
+     maven "Maven"  
    }
    environment {
        scannerHome = tool 'sonar scaner'
