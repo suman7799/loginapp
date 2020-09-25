@@ -44,7 +44,7 @@ pipeline {
       steps {
         sh "mvn deploy"
        }
-     }
+     
      
     }
 	stage("Ansible"){
@@ -52,7 +52,8 @@ pipeline {
 			sh 'ansible-playbook /home/remote/tomcat.yml -i /home/remote/hosts -b'
        }
  
-   }
+     }
 
-   }
+    }
+}
    
