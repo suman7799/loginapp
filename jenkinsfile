@@ -42,7 +42,7 @@ pipeline {
     }
     stage ('Deploying Artifact'){
       steps {
-        sh "mvn deploy -X"
+        sh "mvn deploy "
        }
      
      
