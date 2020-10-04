@@ -75,16 +75,16 @@
 	
 		<repository>
 			<id>nexus</id>
-			<name>exam_practice
+			<name>CI_CD_pipeline
 </name>
-			<url>http://34.234.204.180:8081/repository/exam_practice/</url>
+			<url>http://52.3.243.114:8081/repository/CI_CD_pipeline/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>exam_practice
+			<name>CI_CD_pipeline
 </name>
-			<url>http://34.234.204.180:8081/repository/exam_practice/</url>
+			<url>http://52.3.243.114:8081/repository/CI_CD_pipeline/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
