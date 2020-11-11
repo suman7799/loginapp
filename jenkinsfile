@@ -4,7 +4,7 @@ pipeline {
        label 'slave'
    }
    tools {
-     maven "Maven"  
+     maven "maven"  
    }
    environment {
        scannerHome = tool 'SonarQube Scanner'
