@@ -75,16 +75,16 @@
 	
 		<repository>
 			<id>nexus</id>
-			<name>CI_CD_pipeline
+			<name>sherlock_release
 </name>
-			<url>http://52.3.243.114:8081/repository/CI_CD_pipeline/</url>
+			<url>http://65.0.103.114:8081/repository/sherlock_release/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>CI_CD_pipeline
+			<name>sherlock_release
 </name>
-			<url>http://52.3.243.114:8081/repository/CI_CD_pipeline/</url>
+			<url>http://65.0.103.114:8081/repository/sherlock_release/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
