@@ -23,7 +23,7 @@ pipeline {
                expression {params.build} 
             }
             steps{
-                sh "mvn clean install package -X"
+                sh "mvn clean install package"
             }
         }
         stage("Deploying to tomcat"){
