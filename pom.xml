@@ -78,7 +78,11 @@
 			<name>class_release</name>
 			<url>http://13.233.62.18:8081/repository/class_maven_group/</url>
 		</repository>
-		
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>class_snapshot</name>
+			<url>http://13.233.62.18:8081/repository/class_maven_group/</url>
+		</snapshotRepository>
 		
 	</distributionManagement>
 	
