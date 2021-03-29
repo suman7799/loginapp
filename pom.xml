@@ -75,16 +75,14 @@
 	
 		<repository>
 			<id>nexus</id>
-			<name>sherlock_release
-</name>
-			<url>http://65.0.103.114:8081/repository/sherlock_release/</url>
+			<name>class_release</name>
+			<url>http://13.233.62.18:8081/repository/class_release/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>sherlock_release
-</name>
-			<url>http://65.0.103.114:8081/repository/sherlock_release/</url>
+			<name>class_snapshot</name>
+			<url>http://13.233.62.18:8081/repository/class_snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
