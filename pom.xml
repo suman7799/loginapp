@@ -71,20 +71,6 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-	
-		<repository>
-			<id>MPMS_Release</id>
-			<name>MPMS_Release</name>
-			<url>http://ec2-65-2-73-12.ap-south-1.compute.amazonaws.com:8081/repository/MPMS_Release/</url>
-		</repository>
-		<repository>
-			<id>MPMS_Snapshot</id>
-			<name>MPMS_Snapshot</name>
-			<url>http://ec2-65-2-73-12.ap-south-1.compute.amazonaws.com:8081/repository/MPMS_Snapshot/</url>
-		</repository>
-				
-	</distributionManagement>
 	
 	<build>
 		<finalName>AccountLogin</finalName>
