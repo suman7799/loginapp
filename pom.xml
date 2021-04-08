@@ -74,9 +74,14 @@
 	<distributionManagement>
 	
 		<repository>
-			<id>nexus</id>
-			<name>class_maven_group</name>
-			<url>http://13.233.62.18:8081/repository/class_maven_group/</url>
+			<id>MPMS_Release</id>
+			<name>MPMS_Release</name>
+			<url>http://ec2-65-2-73-12.ap-south-1.compute.amazonaws.com:8081/repository/MPMS_Release/</url>
+		</repository>
+		<repository>
+			<id>MPMS_Snapshot</id>
+			<name>MPMS_Snapshot</name>
+			<url>http://ec2-65-2-73-12.ap-south-1.compute.amazonaws.com:8081/repository/MPMS_Snapshot/</url>
 		</repository>
 				
 	</distributionManagement>
