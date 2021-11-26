@@ -1,0 +1,10 @@
+---
+- hosts: practice
+  become_user: root
+  remote_user: ansible
+  become: true
+  task:
+    - name: user creation
+      user: 
+        name: john
+        state: present
