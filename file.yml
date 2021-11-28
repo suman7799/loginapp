@@ -12,8 +12,16 @@
       yum:
         name: docker*
         state: latest
-    - name: Service started
+    - name: service started
       service:
         name: docker
         state: started
         enabled: yes
+    - name: Pulling docker images
+      docker_image:
+        name: nginx:latest
+        state: pull
+    - name: Starting nginx container
+      docker_container:
+        name: Nginx_Container
+        image: nginx:latest
