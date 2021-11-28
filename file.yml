@@ -28,7 +28,7 @@
     - name: Getting container status
       docker_container_info:
         name: Nginx_Container
-      register: resuult
+      register: result
     - name: Display result value
       debug:
         msg: result
