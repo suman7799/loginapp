@@ -12,7 +12,7 @@
       yum:
         name: docker*
         state: latest
-    - name: 
+    - name: Service started
       service:
         name: docker
         state: started
