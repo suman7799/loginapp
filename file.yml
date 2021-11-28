@@ -6,5 +6,5 @@
   tasks:
     - name: user creation
       user: 
-        name: john
+        name: srikanta
         state: present
