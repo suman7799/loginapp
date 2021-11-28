@@ -20,7 +20,7 @@
     - name: Pulling docker images
       docker_image:
         name: nginx:latest
-        state: pull
+        source: pull
     - name: Starting nginx container
       docker_container:
         name: Nginx_Container
