@@ -4,7 +4,7 @@
   remote_user: ansible
   become: true
   tasks:
-    - name: user creation111qqqqqq
+    - name: user creation111
       user:
         name: papu
         state: present
