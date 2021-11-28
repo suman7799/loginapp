@@ -25,3 +25,10 @@
       docker_container:
         name: Nginx_Container
         image: nginx:latest
+    - name: Getting container status
+      docker_container_info:
+        name: Nginx_Container
+      register: resuult
+    - name: Display result value
+      debug:
+      msg: result
