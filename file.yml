@@ -31,4 +31,4 @@
       register: resuult
     - name: Display result value
       debug:
-      msg: result
+        msg: result
