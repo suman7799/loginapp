@@ -27,7 +27,7 @@
         image: nginx:latest
     - name: Getting container status
       docker_container_info:
-        name: Nginx_Container
+        command: docker container ls --format '{{ .Names }}'
       register: result
     - name: Display result value
       debug:
